@@ -1,0 +1,143 @@
+.wrapper {
+  .first-section {
+    background-position: top bottom;
+
+ #menu {
+         .dropdown{
+             .last-child-a{
+              &::after {     // Jag har inte haft tid för att fixa ordentligt så att det passar alla storlekar av skärm sorry
+                display: block; // Display & content krävs för att vi ska se någonting av pseudo-elementet
+                content: '';
+                background: rgb(209, 0, 161);
+                width: 0;
+                height: 8px;
+                transition: width 0.5s ease-in;
+                margin-left: 41vw;
+                 border-radius: 1.875rem;
+            }
+              &:hover {
+              &::after {
+                width: 19.5rem;
+              }
+         } 
+      }
+    }
+  }
+
+    article {
+      text-align: center;
+      max-width: 250px;
+      margin-left: 4rem;
+      top: 10rem;
+     
+
+      h1 {
+        line-height: 1.2;
+        max-width: 300px;
+        font-size: 3.8rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+      }
+      a {
+        align-self: flex-end;
+        margin-right: 1rem;
+      }
+    }
+  
+
+  }
+main {
+  display: flex;
+  column-gap: 5rem;
+  .left {
+    article:nth-child(1) {
+      h2 {
+        span {
+          left: 1rem;
+          top: 2.625rem;
+        }
+        .right-articleOne-div {
+          background-color: #f3ec78;
+          background-image: linear-gradient(#f3ec78, #af4261);
+          background-image: conic-gradient(#f3ec78, #af4261);
+        }
+      }
+    }
+  }
+  .right,
+  .left {
+    width: 50%;
+  }
+
+  .right {
+    article:first-child {
+      padding: 0rem 0rem 0rem 3rem !important;
+      position: relative;
+      margin-bottom: 17.5rem;
+
+      q {
+        display: block;
+        font-size: 2rem;
+        quotes: '\275D''\275E';
+        font-style: italic;
+        font-weight: 100;
+        position: relative;
+        max-height: 6rem;
+
+        span {
+          font-family: 'Rubik', sans-serif;
+          display: inline-block;
+          position: relative;
+          z-index: 999;
+        }
+        &::before {
+          font-size: 3rem;
+          position: relative;
+          top: 4rem;
+          left: -0.6rem;
+          z-index: 1;
+        }
+
+        &::after {
+          font-size: 3rem;
+          position: relative;
+          top: -3.5rem;
+          right: -13.7rem;
+          z-index: 1;
+        }
+      }
+    }
+  }
+
+  .right {
+    article:nth-child(2) {
+      .flat-breaks {
+        display: block;
+        width: 100%;
+        height: 1.6;
+      }
+      .flat-breaks br {
+        display: none;
+      }
+     
+       div p > img {
+          visibility: visible;
+          position: static;
+          float: right;
+        }
+      }
+    }
+  }
+}
+¨
+.right{
+  article{
+    .right-articleOne-div{
+      q > span {
+        background-clip: linear-gradient(to right, #7e243b 50%, #330867 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      }
+  }
+}

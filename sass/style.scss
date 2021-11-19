@@ -1,0 +1,10 @@
+@import '_base.scss';
+
+
+@media screen and (min-width: 800px) {
+  @import '_desktop';
+}
+
+// @media and (min-width: 860px) {
+//  @import '_tablet.scss';
+// }
