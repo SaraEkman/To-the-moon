@@ -1,3 +1,3 @@
 # To-the-moon
-## Medieinstitutet Yrkehögskola "front end developer" 
+## Medieinstitutet Yrkeshögskola "front end developer" 
 ### Css uppgiften i kurs Html&Css
