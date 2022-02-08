@@ -232,10 +232,11 @@ main {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0em;
   right: 0em;
   left: 0em;
+  top: 850px;
   max-width: 100vw;
   background-color: #03061f;
   padding: 0.5rem;
